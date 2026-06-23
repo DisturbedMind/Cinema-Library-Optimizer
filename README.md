@@ -1,10 +1,23 @@
 # Cinema Library Optimizer
 
-<img src="assets/wolf-banner.png" alt="Wolf logo" width="220">
+<p align="center">
+  <img src="assets/wolf-banner.png" alt="Cinema Library Optimizer wolf banner" width="100%">
+</p>
 
-Cinema Library Optimizer is a Python/Tkinter desktop tool for auditing a movie library, finding oversized or stale media folders, and working with Radarr to replace large movies with smaller releases.
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">
+  <img alt="Tkinter" src="https://img.shields.io/badge/GUI-Tkinter-0f766e">
+  <img alt="Radarr" src="https://img.shields.io/badge/Radarr-focused-ffc230">
+  <img alt="FFmpeg" src="https://img.shields.io/badge/ffprobe-supported-007808?logo=ffmpeg&logoColor=white">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blue">
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&logoColor=white">
+</p>
 
-It is geared for Radarr-managed libraries: scan your movie directory, inspect folder and file sizes, verify real video formats with ffprobe, then use right-click Radarr actions to change quality profiles, search for replacement releases, manually choose a release, and monitor downloads until Radarr imports the new file.
+## About
+
+Cinema Library Optimizer is a Windows Python/Tkinter desktop app for auditing and optimizing Radarr-managed movie libraries. It scans a cinema directory tree, shows folder and file sizes, identifies real video formats with ffprobe, and helps find the movies that are eating the most storage.
+
+The app is built around practical Radarr workflows: select one or more oversized movies, choose a smaller target quality profile, let Radarr search or grab a matching release, manually inspect available releases when Radarr rejects them, and monitor the download/import process until the replacement file lands on disk. It is designed for home cinema, homelab, and self-hosted media setups where large 4K, remux, or stale media folders need to be brought under control without blindly deleting the existing library.
 
 Use it when you want to:
 
@@ -14,6 +27,9 @@ Use it when you want to:
 - Refresh scanned movie folders after Radarr or Emby changes files on disk.
 - Remove stale trailer downloader temp folders during scans.
 
+## Tags
+
+`radarr` `radarr-tools` `movie-library` `media-library` `cinema-library` `media-management` `movie-management` `storage-optimizer` `disk-space-analyzer` `folder-size` `file-size` `python` `tkinter` `desktop-app` `windows` `ffmpeg` `ffprobe` `video-quality` `4k` `1080p` `720p` `remux` `quality-profiles` `self-hosted` `homelab` `media-server` `emby` `plex` `arr-stack` `automation` `gui` `open-source` `mit-license`
 ## Features
 
 - Enter a directory path manually or choose one with Browse.
