@@ -27,9 +27,6 @@ Use it when you want to:
 - Refresh scanned movie folders after Radarr or Emby changes files on disk.
 - Remove stale trailer downloader temp folders during scans.
 
-## Tags
-
-`radarr` `radarr-tools` `movie-library` `media-library` `cinema-library` `media-management` `movie-management` `storage-optimizer` `disk-space-analyzer` `folder-size` `file-size` `python` `tkinter` `desktop-app` `windows` `ffmpeg` `ffprobe` `video-quality` `4k` `1080p` `720p` `remux` `quality-profiles` `self-hosted` `homelab` `media-server` `emby` `plex` `arr-stack` `automation` `gui` `open-source` `mit-license`
 ## Features
 
 - Enter a directory path manually or choose one with Browse.
