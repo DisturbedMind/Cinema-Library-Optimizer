@@ -1,0 +1,5 @@
+# Cinema Library Optimizer uses only the Python standard library.
+# Tkinter is included with most Windows Python installs.
+# Optional external tools:
+# - ffprobe from FFmpeg for accurate video resolution detection
+# - PyInstaller if you want to build a standalone EXE

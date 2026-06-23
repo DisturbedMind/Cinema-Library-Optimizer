@@ -1,0 +1,6 @@
+{
+  "base_url": "http://localhost:7878",
+  "api_key": "PASTE_RADARR_API_KEY_HERE",
+  "target_quality_profile_id": null,
+  "target_quality_profile_name": ""
+}

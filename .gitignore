@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+dist/
+build/
+*.spec
+*.log
+settings.json
+cinema-library-report.csv
+cinema_library_report.csv
+*report.csv
+ffprobe.exe
+ffmpeg.exe
